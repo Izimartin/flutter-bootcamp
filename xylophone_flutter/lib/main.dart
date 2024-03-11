@@ -21,6 +21,9 @@ class XylophoneApp extends StatelessWidget {
         },
         style: TextButton.styleFrom(
           backgroundColor: color,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.zero,
+          ),
         ),
         child: const Text(''),
       ),
